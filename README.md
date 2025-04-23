@@ -1,13 +1,25 @@
-# Proiect-Microprocesoare
+# Microprocessors Project
 
-### Scopul acestui proiect este să exploreze și să demonstreze modul în care putem controla direcția de rotație a unui motor servo utilizând semnale de modulație a lățimii impulsurilor (PWM), pe baza datelor furnizate de un senzor de flacără. 
+## Project Goal
 
-### Proiectul se concentrează pe dezvoltarea unui sistem capabil să interpreteze semnalele analogice provenite de la senzorul de flacără pentru a genera semnale PWM corespunzatoare pentru controlarea poziției servomotorului. Un aspect vital al proiectului este capacitatea sa de a transmite datele din senzor către un calculator prin intermediul interfeţei UART (Universal Asynchronous Receiver-Transmitter), permiţând astfel vizualizarea datelor în timp real printr-o interfață grafică. Această funcționalitate nu doar îmbunătățește interactivitatea sistemului, dar oferă și o platformă pentru analiza și monitorizarea datelor.
+The purpose of this project is to explore and demonstrate how we can control the rotation direction of a servo motor using **Pulse Width Modulation (PWM)** signals, based on data provided by a **flame sensor**.
 
-### Bonus: Am extins proiectul prin includerea unei funcționalități suplimentare care permite controlul poziției servomotorului utilizând senzorul TSI (Touch Sensing Input) integrat pe microcontroller.
+The project focuses on developing a system capable of interpreting **analog signals** from the flame sensor in order to generate corresponding **PWM signals** for controlling the servo motor's position.
 
-### Pentru a rula interfața din python urmați pașii: 
-  #### 1. Urmați pașii din fișierul README din folderul GUI+env pentru a instala dependințele si a crea environmentul de python.
-  #### 2. Deschideți PowerShell in folderul "GUI + env".
-  #### 3. Rulați comanda ". .\venv-up-all\Scripts\activate" pentru a activa environmentul.
-  #### 4. Rulați comanda "python ./main.py".
+A vital aspect of the project is its ability to transmit sensor data to a computer via the **UART (Universal Asynchronous Receiver-Transmitter)** interface, allowing real-time data visualization through a **graphical interface**. This functionality not only enhances the system’s interactivity but also provides a platform for **data analysis and monitoring**.
+
+## Bonus Functionality
+
+We extended the project by including an additional feature that allows the servo motor position to be controlled using the **TSI (Touch Sensing Input)** sensor integrated into the microcontroller.
+
+## Running the Python Interface
+
+To run the Python interface, follow these steps:
+
+1. Follow the instructions in the `README` file located in the `GUI+env` folder to install dependencies and set up the Python environment.
+2. Open PowerShell in the `GUI + env` folder.
+3. Run the following command to activate the environment:
+   ```powershell
+   . .\venv-up-all\Scripts\activate
+
+  #### 4. Run command "python ./main.py".
